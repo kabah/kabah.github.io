@@ -56,13 +56,13 @@ function checkForWin(){
 	if (xWins) {
 		playerTurn.innerHTML = "Game over! X wins!";
 		resetButton.innerHTML = "Play Again";
-		xWinCounter++;
+		// xWinCounter++;
 		break;
 	}
 	if (oWins) {
 		playerTurn.innerHTML = "Game over! O wins!";
 		resetButton.innerHTML = "Play Again";
-		oWinCounter++;
+		// oWinCounter++;
 		break;
 			}
 		}
